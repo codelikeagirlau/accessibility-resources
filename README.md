@@ -59,5 +59,5 @@ Currently this repo is a mess of notes and links... help us make it better!
 - Dark patterns e.g. cannot unsubscribe to service.
 - How do we consider people who aren't as tech savvy in how we set up our websites / apps/ digital products?
 - [Helping blind people learn to code](https://www.freecodecamp.org/news/helping-blind-people-learn-to-code-c47c68d4a237/)
-- Accesibiltiy workshops?
+- Accessibility workshops?
 - An accessibility-first website project would be a great portfolio piece (e.g. for someone looking for an internship)
