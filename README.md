@@ -6,7 +6,10 @@ Currently this repo is a mess of notes and links... help us make it better!
 
 ## What is accessibility?
 
-- information goes herrreeee
+On the web, accessibility ensures that users with disabilities are able to use all facets of a website. The World Wide Web Consortium (W3C) defines accessibility standards and guidelines that all website designers and developers should comply with.
+
+Accessibility is often pooled together with other web standards like performance, usability and security at the end of developing a web project though our aim is to make it a priority throughout all stages of web development. 
+
 
 ## Accessibility things to consider when creating web and digital products:
 
