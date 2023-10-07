@@ -56,14 +56,14 @@ Accessibility is often pooled together with other web standards like performance
 - [Kristy Viers uses voiceover and braille keyboard on the ipad]( https://www.youtube.com/watch?v=vpQEQU3ExA0\ )
 - [Jared Smith on his difficulties accessing the web as a blind user](https://youtu.be/yx7hdQqf8lE)
 - [How Jared uses a sip and puff to control his computer](https://www.youtube.com/watch?v=Bhj5vs9P5cw)
-- [Rakesh Babu experiences as a blind user](https://youtu.be/qL4shFJHOvc)
+- [Rakesh Babu's experiences as a blind user](https://youtu.be/qL4shFJHOvc)
 - [How Christina uses email and twitter as a blind user](https://youtu.be/_OO9w_oK6dQ)
 - [Using an iphone as a blind user (filling out form)](https://www.youtube.com/watch?v=nw6-eDJXWzY)
-- [Jeff playing Assisns Creed with a quadstick](https://youtu.be/eFkhFxJZvho)
-- [Aimee Mullins TED talk on her prosthetic legs](https://youtu.be/JQ0iMulicgg)
+- [Jeff playing Assassins Creed with a quadstick](https://youtu.be/eFkhFxJZvho)
 - [Carrie on Accessibility](https://www.youtube.com/channel/UCraSGW8s4NMaFKrJ5YbjB4w)
 - [Web AIM perspective videos](https://www.w3.org/WAI/perspective-videos/)
 - [Web AIM user stories](https://www.w3.org/WAI/people-use-web/user-stories/)
+- [Aimee Mullins TED talk on her prosthetic legs](https://youtu.be/JQ0iMulicgg)
 - [Endless Thread episode about how reddit failed it's blind moderators](https://www.wbur.org/endlessthread/2023/06/28/reddit-api-blind)
 
 ## Other notes and incomplete thoughts
