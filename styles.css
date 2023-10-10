@@ -1,0 +1,52 @@
+/* Colour palette - feel free to mix it up! */
+/* This is how we could define our colour palette with Sass but to keep things simple, let's use pure CSS */
+/* 
+$white: #ffffff;
+$grey: #e2dcde;
+$red: #ee0000;
+$black: #3a3335; 
+
+$accent-color: $red;
+$font-color: $black;
+*/
+
+
+
+body {
+    background-color: #ffffff;
+    font-family: 'Gabarito', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+section {
+    padding: 1rem 1rem 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    @media screen and (min-width: 30rem) {
+        font-size: 4rem;
+    }
+}
+
+p {
+    font-size: 1rem;
+    line-height: 130%;
+    @media screen and (min-width: 30rem) {
+        max-width: 40rem;
+    }
+}
+
+a {
+    display: inline-block;
+    color: #ffffff;
+    background-color:  #ee0000;
+    font-weight: 600;
+    padding: 0 0.25rem;
+}
+
+a:hover {
+    background-color: #e2dcde;
+    color: #3a3335;
+}
