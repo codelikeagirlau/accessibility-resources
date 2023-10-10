@@ -10,10 +10,20 @@ $accent-color: $red;
 $font-color: $black;
 */
 
+/* Custom colour palette */
 
+:root {
+    --primary-font-color: #3a3335;
+    --secondary-font-color: #ffffff;
+
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #e2dcde;
+
+    --accent-color: #ee0000;
+}
 
 body {
-    background-color: #ffffff;
+    background-color: var(--primary-bg-color);
     font-family: 'Gabarito', Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -40,13 +50,13 @@ p {
 
 a {
     display: inline-block;
-    color: #ffffff;
-    background-color:  #ee0000;
+    color: var(--secondary-font-color);
+    background-color:  var(--accent-color);
     font-weight: 600;
     padding: 0 0.25rem;
 }
 
 a:hover {
-    background-color: #e2dcde;
-    color: #3a3335;
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-font-color);
 }
