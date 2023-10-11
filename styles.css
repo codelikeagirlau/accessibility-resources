@@ -13,39 +13,44 @@ $font-color: $black;
 /* Custom colour palette */
 
 :root {
-    --primary-font-color: #3a3335;
+    --primary-font-color: #96867b;
     --secondary-font-color: #ffffff;
 
-    --primary-bg-color: #ffffff;
-    --secondary-bg-color: #e2dcde;
+    --primary-bg-color: #b9be584f;
+    --secondary-bg-color: #7f4707;
 
-    --accent-color: #ee0000;
+    --accent-color: #064e16;
 }
 
 body {
     background-color: var(--primary-bg-color);
     font-family: 'Gabarito', Helvetica, Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 section {
     padding: 1rem 1rem 0;
 }
 
-h1 {
-    font-size: 2.5rem;
+h1,h2 {
+    font-size: 2rem;
+    color: #311801;
     @media screen and (min-width: 30rem) {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 
 p {
     font-size: 1rem;
+    color:#120900 ;
     line-height: 130%;
     @media screen and (min-width: 30rem) {
         max-width: 40rem;
     }
+}
+ul{
+    color: #120900;
 }
 
 a {
@@ -54,6 +59,8 @@ a {
     background-color:  var(--accent-color);
     font-weight: 600;
     padding: 0 0.25rem;
+    text-align: center;
+   
 }
 
 a:hover {
