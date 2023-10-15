@@ -8,20 +8,19 @@ Currently this repo is a mess of notes and links... help us make it better!
 
 On the web, accessibility ensures that users with disabilities are able to use all facets of a website. The World Wide Web Consortium (W3C) defines accessibility standards and guidelines that all website designers and developers should comply with.
 
-Accessibility is often pooled together with other web standards like performance, usability and security at the end of developing a web project though our aim is to make it a priority throughout all stages of web development. 
-
+Accessibility is often pooled together with other web standards like performance, usability and security at the end of developing a web project though our aim is to make it a priority throughout all stages of web development.
 
 ## Accessibility things to consider when creating web and digital products:
 
 - POUR principles: Perceivable, operable, understandable, robust
+- HTML: use sematic elements (nav, section, article, aside, footer, header, etc) instead of divs - to assist with screen readers
 - Video captions
-- image descriptions
 - Color blindness
 - Bionic reading
 - Sensory considerations
 - Autoplay of sound and video
 - Design features that are meaninful vs decorative
-- Seperate css stylesheets for different access requierments (print, screen readers, colour blind, dark mode, slow connections)
+- Seperate css stylesheets for different access requirements (print, screen readers, colour blind, dark mode, slow connections)
 - Image descriptions and alt text
 - Text should always be written, not in a flat image
 - Building websites for slow internet connections, with technologies e.g Lazy Load, optimized images, fallback, SWR etc
@@ -34,6 +33,17 @@ Accessibility is often pooled together with other web standards like performance
 - [Vic government typography and accessibility colour digital guide](https://www.vic.gov.au/typography-and-accessible-colour-digital-guide)
 - [Bionic Reading chrome extension](https://chrome.google.com/webstore/detail/bionic-reading/kdfkejelgkdjgfoolngegkhkiecmlflj/related)
 - Otter AI
+- https://www.w3.org/WAI/business-case/
+- https://www.w3.org/WAI/standards-guidelines/wcag/
+- https://fonts.google.com/knowledge/readability_and_accessibility/introducing_accessibility_in_typography
+- https://css-tricks.com/making-calendars-with-accessibility-and-internationalization-in-mind/
+- https://www.tawdis.net/#
+- https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce
+- https://www.st-andrews.ac.uk/itsnew/web/accessibility/cynthia_validator.shtml
+- https://www.w3.org/TR/2015/REC-ATAG20-20150924/
+- https://achecks.org/achecker
+- https://wave.webaim.org/
+- https://www.linkedin.com/learning/accessibility-first-design
 
 ## Questions for digital teams and organisations to ask:
 
@@ -49,6 +59,7 @@ Accessibility is often pooled together with other web standards like performance
 - Devs and techies:
 - QA and testers:
 - Accessibility committees:
+- EVERYONE!
 
 ## Assistive technology in action
 
