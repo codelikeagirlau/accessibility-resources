@@ -19,8 +19,8 @@ Accessibility is often pooled together with other web standards like performance
 - Bionic reading
 - Sensory considerations
 - Autoplay of sound and video
-- Design features that are meaninful vs decorative
-- Seperate css stylesheets for different access requirements (print, screen readers, colour blind, dark mode, slow connections)
+- Design features that are meaningful vs decorative
+- Separate css stylesheets for different access requirements (print, screen readers, colour blind, dark mode, slow connections)
 - Image descriptions and alt text
 - Text should always be written, not in a flat image
 - Building websites for slow internet connections, with technologies e.g Lazy Load, optimized images, fallback, SWR etc
@@ -32,6 +32,7 @@ Accessibility is often pooled together with other web standards like performance
 - [Digital NSW Colour Contrast resource](https://www.digital.nsw.gov.au/delivery/accessibility-and-inclusivity-toolkit/inclusive-design/colour-contrast)
 - [Vic government typography and accessibility colour digital guide](https://www.vic.gov.au/typography-and-accessible-colour-digital-guide)
 - [Bionic Reading chrome extension](https://chrome.google.com/webstore/detail/bionic-reading/kdfkejelgkdjgfoolngegkhkiecmlflj/related)
+- [A11y project WCAG compliance checklist](https://www.a11yproject.com/checklist/)
 - Otter AI
 - https://www.w3.org/WAI/business-case/
 - https://www.w3.org/WAI/standards-guidelines/wcag/
@@ -44,6 +45,46 @@ Accessibility is often pooled together with other web standards like performance
 - https://achecks.org/achecker
 - https://wave.webaim.org/
 - https://www.linkedin.com/learning/accessibility-first-design
+
+### Assistive technology
+
+Getting familiar with assistive technologies such as screen readers will enable you to test your sites for accessibility as you're building them.
+
+#### Screen readers
+
+##### Mac
+
+- VoiceOver for Mac (built-in) [Watch tutorial](https://www.youtube.com/watch?v=5R-6WvAihms&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=9)
+
+##### Windows
+
+- NVDA [free download](https://www.nvaccess.org/download/). [Watch tutorial](https://www.youtube.com/watch?v=Jao3s_CwdRU&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=9)
+
+##### ChromeBook
+
+-ChromeVox for Chromebook (built-in). [Watch tutorial](https://www.youtube.com/watch?v=fpbIsN31hLM)
+
+##### Mobile screen readers
+
+- VoiceOver on iOS [Watch tutorial](https://www.youtube.com/watch?v=bCHpdjvxBws&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=28)
+
+- TalkBack for Android [Watch tutorial](https://www.youtube.com/watch?v=0Zpzl4EKCco&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=27)
+
+#### Assistive technology in action
+
+- [Kristy Viers uses voiceover and braille keyboard on the iphone](https://www.youtube.com/watch?v=wueLXCbm_KY)
+- [Kristy Viers uses voiceover and braille keyboard on the ipad](<https://www.youtube.com/watch?v=vpQEQU3ExA0\ >)
+- [Jared Smith on his difficulties accessing the web as a blind user](https://youtu.be/yx7hdQqf8lE)
+- [How Jared uses a sip and puff to control his computer](https://www.youtube.com/watch?v=Bhj5vs9P5cw)
+- [Rakesh Babu's experiences as a blind user](https://youtu.be/qL4shFJHOvc)
+- [How Christina uses email and twitter as a blind user](https://youtu.be/_OO9w_oK6dQ)
+- [Using an iphone as a blind user (filling out form)](https://www.youtube.com/watch?v=nw6-eDJXWzY)
+- [Jeff playing Assassins Creed with a quadstick](https://youtu.be/eFkhFxJZvho)
+- [Carrie on Accessibility](https://www.youtube.com/channel/UCraSGW8s4NMaFKrJ5YbjB4w)
+- [Web AIM perspective videos](https://www.w3.org/WAI/perspective-videos/)
+- [Web AIM user stories](https://www.w3.org/WAI/people-use-web/user-stories/)
+- [Aimee Mullins TED talk on her prosthetic legs](https://youtu.be/JQ0iMulicgg)
+- [Endless Thread episode about how reddit failed it's blind moderators](https://www.wbur.org/endlessthread/2023/06/28/reddit-api-blind)
 
 ## Questions for digital teams and organisations to ask:
 
@@ -60,22 +101,6 @@ Accessibility is often pooled together with other web standards like performance
 - QA and testers:
 - Accessibility committees:
 - EVERYONE!
-
-## Assistive technology in action
-
-- [Kristy Viers uses voiceover and braille keyboard on the iphone](https://www.youtube.com/watch?v=wueLXCbm_KY)
-- [Kristy Viers uses voiceover and braille keyboard on the ipad]( https://www.youtube.com/watch?v=vpQEQU3ExA0\ )
-- [Jared Smith on his difficulties accessing the web as a blind user](https://youtu.be/yx7hdQqf8lE)
-- [How Jared uses a sip and puff to control his computer](https://www.youtube.com/watch?v=Bhj5vs9P5cw)
-- [Rakesh Babu's experiences as a blind user](https://youtu.be/qL4shFJHOvc)
-- [How Christina uses email and twitter as a blind user](https://youtu.be/_OO9w_oK6dQ)
-- [Using an iphone as a blind user (filling out form)](https://www.youtube.com/watch?v=nw6-eDJXWzY)
-- [Jeff playing Assassins Creed with a quadstick](https://youtu.be/eFkhFxJZvho)
-- [Carrie on Accessibility](https://www.youtube.com/channel/UCraSGW8s4NMaFKrJ5YbjB4w)
-- [Web AIM perspective videos](https://www.w3.org/WAI/perspective-videos/)
-- [Web AIM user stories](https://www.w3.org/WAI/people-use-web/user-stories/)
-- [Aimee Mullins TED talk on her prosthetic legs](https://youtu.be/JQ0iMulicgg)
-- [Endless Thread episode about how reddit failed it's blind moderators](https://www.wbur.org/endlessthread/2023/06/28/reddit-api-blind)
 
 ## Other notes and incomplete thoughts
 
