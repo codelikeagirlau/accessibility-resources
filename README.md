@@ -32,7 +32,7 @@ Accessibility is often pooled together with other web standards like performance
 - [Digital NSW Colour Contrast resource](https://www.digital.nsw.gov.au/delivery/accessibility-and-inclusivity-toolkit/inclusive-design/colour-contrast)
 - [Vic government typography and accessibility colour digital guide](https://www.vic.gov.au/typography-and-accessible-colour-digital-guide)
 - [Bionic Reading chrome extension](https://chrome.google.com/webstore/detail/bionic-reading/kdfkejelgkdjgfoolngegkhkiecmlflj/related)
-- [A11y project WCAG compliance checklist](https://www.a11yproject.com/checklist/)
+- A11y project [WCAG compliance checklist](https://www.a11yproject.com/checklist/)
 - Otter AI
 - https://www.w3.org/WAI/business-case/
 - https://www.w3.org/WAI/standards-guidelines/wcag/
@@ -48,27 +48,50 @@ Accessibility is often pooled together with other web standards like performance
 
 ### Assistive technology
 
-Getting familiar with assistive technologies such as screen readers will enable you to test your sites for accessibility as you're building them.
+Manual accessibility testing using assistive technology is a key part of ensuring your website is accessible.
 
 #### Screen readers
 
-##### Mac
+##### VoiceOver for Mac
 
-- VoiceOver for Mac (built-in) [Watch tutorial](https://www.youtube.com/watch?v=5R-6WvAihms&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=9)
+- VoiceOver comes built-in with Mac
+- [A11ycasts tutorial](https://www.youtube.com/watch?v=5R-6WvAihms&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=9)
+- [Testing template](https://accessibility-manual.dwp.gov.uk/best-practice/screen-reader-testing#voiceover-on-os-x)
 
-##### Windows
+##### NVDA for Windows
 
-- NVDA [free download](https://www.nvaccess.org/download/). [Watch tutorial](https://www.youtube.com/watch?v=Jao3s_CwdRU&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=9)
+- [Free download](https://www.nvaccess.org/download/)
+- [A11ycasts tutorial](https://www.youtube.com/watch?v=Jao3s_CwdRU&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=9)
+- [Testing template](https://accessibility-manual.dwp.gov.uk/best-practice/screen-reader-testing#nvda-on-windows)
 
-##### ChromeBook
+##### ChromeVox for ChromeBook
 
--ChromeVox for Chromebook (built-in). [Watch tutorial](https://www.youtube.com/watch?v=fpbIsN31hLM)
+- ChromeVox comes built-in with Chromebook
+- [A11ycasts tutorial](https://www.youtube.com/watch?v=fpbIsN31hLM)
 
-##### Mobile screen readers
+##### VoiceOver on iOS
 
-- VoiceOver on iOS [Watch tutorial](https://www.youtube.com/watch?v=bCHpdjvxBws&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=28)
+- [A11ycasts tutorial](https://www.youtube.com/watch?v=bCHpdjvxBws&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=28)
 
-- TalkBack for Android [Watch tutorial](https://www.youtube.com/watch?v=0Zpzl4EKCco&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=27)
+##### TalkBack for Android
+
+- [A11ycasts tutorial](https://www.youtube.com/watch?v=0Zpzl4EKCco&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=27)
+
+#### Voice controllers
+
+##### Voice Control for iOS
+
+- BBC News process for [testing with Voice Control](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/voice-control-ios.html)
+
+##### Voice Access for Android
+
+- BBC News process for [testing with Voice Access](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/voice-access-android.html)
+
+#### Screen magnifiers
+
+##### Zoom on OS X
+
+- DWP UK's template for [testing Zoom on OS X](https://accessibility-manual.dwp.gov.uk/best-practice/screen-magnifier-testing)
 
 #### Assistive technology in action
 
