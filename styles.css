@@ -14,11 +14,11 @@ $font-color: $black;
 
 :root {
     --primary-text-color: #222;
-    --secondary-text-color: #124333;
+    --secondary-text-color: #185D4A;
 
     --link-color: #3b4bbf;
 
-    --primary-bg-color: #fffefe;
+    --primary-bg-color: #f4f5f6;
     /* --secondary-bg-color: #7f4707; */
 
     --accent-color: #a900c0;
