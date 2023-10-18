@@ -45,6 +45,7 @@ Accessibility is often pooled together with other web standards like performance
 - https://achecks.org/achecker
 - https://wave.webaim.org/
 - https://www.linkedin.com/learning/accessibility-first-design
+- [Quick accessibility tests](https://youtu.be/ahDuaWKSGZA?si=QCTquw10i9R3h-MT) (YouTube playlist)
 
 ### Assistive technology
 
