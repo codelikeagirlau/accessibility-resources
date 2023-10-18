@@ -13,17 +13,20 @@ $font-color: $black;
 /* Custom colour palette */
 
 :root {
-    --primary-font-color: #96867b;
-    --secondary-font-color: #ffffff;
+    --primary-text-color: #222;
+    --secondary-text-color: #124333;
 
-    --primary-bg-color: #b9be584f;
-    --secondary-bg-color: #7f4707;
+    --link-color: #3b4bbf;
 
-    --accent-color: #064e16;
+    --primary-bg-color: #fffefe;
+    /* --secondary-bg-color: #7f4707; */
+
+    --accent-color: #a900c0;
 }
 
 body {
     background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
     font-family: 'Gabarito', Helvetica, Arial, sans-serif;
     font-size: 1.2rem;
     font-weight: 300;
@@ -33,9 +36,9 @@ section {
     padding: 1rem 1rem 0;
 }
 
-h1,h2 {
+h1, h2 {
     font-size: 2rem;
-    color: #311801;
+    color: var(--secondary-text-color);
     @media screen and (min-width: 30rem) {
         font-size: 3rem;
     }
@@ -43,27 +46,27 @@ h1,h2 {
 
 p {
     font-size: 1rem;
-    color:#120900 ;
     line-height: 130%;
     @media screen and (min-width: 30rem) {
         max-width: 40rem;
     }
 }
-ul{
-    color: #120900;
-}
 
 a {
     display: inline-block;
-    color: var(--secondary-font-color);
-    background-color:  var(--accent-color);
-    font-weight: 600;
+    color: var(--link-color);
+    /* background-color:  var(--accent-color); */
+    /* font-weight: 600; */
     padding: 0 0.25rem;
     text-align: center;
    
 }
 
-a:hover {
-    background-color: var(--secondary-bg-color);
-    color: var(--primary-font-color);
+a:hover, a:focus {
+    font-weight: 600;
+}
+
+a:active {
+    background-color: var(--link-color);
+    color: var(--primary-bg-color);
 }
