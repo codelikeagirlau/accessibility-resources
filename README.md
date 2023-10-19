@@ -60,6 +60,7 @@ Accessibility is often pooled together with other web standards like performance
 
 ### Assistive technology
 **[`^  back to top  ^`](#accessibility-resources)**
+
 Manual accessibility testing using assistive technology is a key part of ensuring your website is accessible.
 
 #### Screen readers
