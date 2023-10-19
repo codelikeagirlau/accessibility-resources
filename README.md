@@ -45,26 +45,10 @@ Accessibility is often pooled together with other web standards like performance
 - https://wave.webaim.org/
 - https://www.linkedin.com/learning/accessibility-first-design
 
-## Questions for digital teams and organisations to ask:
-
-- What would an accessibility-first process for digital products look like?
-- What would an accessibility pledge look like?
-- How can digital teams bake accessibility into their process?
-- How does an organisation prioritise accecessibility?
-
-## Who in an org should be responsible for accessibilitiy?
-
-- Designers:
-- Content Writers:
-- Devs and techies:
-- QA and testers:
-- Accessibility committees:
-- EVERYONE!
-
 ## Assistive technology in action
 
 - [Kristy Viers uses voiceover and braille keyboard on the iphone](https://www.youtube.com/watch?v=wueLXCbm_KY)
-- [Kristy Viers uses voiceover and braille keyboard on the ipad]( https://www.youtube.com/watch?v=vpQEQU3ExA0\ )
+- [Kristy Viers uses voiceover and braille keyboard on the ipad](<https://www.youtube.com/watch?v=vpQEQU3ExA0\ >)
 - [Jared Smith on his difficulties accessing the web as a blind user](https://youtu.be/yx7hdQqf8lE)
 - [How Jared uses a sip and puff to control his computer](https://www.youtube.com/watch?v=Bhj5vs9P5cw)
 - [Rakesh Babu's experiences as a blind user](https://youtu.be/qL4shFJHOvc)
@@ -83,11 +67,6 @@ Accessibility is often pooled together with other web standards like performance
 - The Roboto font - apparently this font is accessibility friendly, was it designed with this in mind?
 - Other fonts that are dyslexia friendly
 - [Person sues Coles for poor accessibility](https://www.business-humanrights.org/en/latest-news/australia-customer-sues-coles-supermarkets-over-alleged-disability-discrimination-re-accessibility-of-website/)
-- "Digital" isn't just about web - how do we consider accessibility in webinars and online events, emails, audio, etc
-- Sometimes the robot is good - can we use AI tools ethically for accessibility,e g. Otter AI for transcripts and meeting summaries, ChatGPT for digesting information and reducing overwhelm etc
-- Autoplay of music and video - MySpace songs. Context is key. TikTok "mute on entry" setting.
-- Dark patterns e.g. cannot unsubscribe to service.
-- How do we consider people who aren't as tech savvy in how we set up our websites / apps/ digital products?
 - [Helping blind people learn to code](https://www.freecodecamp.org/news/helping-blind-people-learn-to-code-c47c68d4a237/)
 - Accessibility workshops?
 - An accessibility-first website project would be a great portfolio piece (e.g. for someone looking for an internship)
