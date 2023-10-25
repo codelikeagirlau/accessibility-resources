@@ -89,8 +89,8 @@ header {
 
 .main-content {
 	@media screen and (min-width: 50rem) {
-		display: flex;
-		/* justify-content: space-between; */
+		display: grid;
+		grid-template-columns: auto 1fr;
 		gap: 5em;
 	}
 }
