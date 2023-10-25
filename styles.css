@@ -1,148 +1,148 @@
 /* Custom colour palette */
 
 :root {
-	--primary-text-color: #222;
-	--secondary-text-color: #185d4a;
+  --primary-text-color: #222;
+  --secondary-text-color: #185d4a;
 
-	--link-color: #3b4bbf;
+  --link-color: #3b4bbf;
 
-	--primary-bg-color: #fff;
-	--secondary-bg-color: #185d4a;
+  --primary-bg-color: #fff;
+  --secondary-bg-color: #185d4a;
 
-	--accent-color: #a900c0;
+  --accent-color: #a900c0;
 
-	--light-grey: #c4c2c2;
+  --light-grey: #c4c2c2;
 }
 
 /* Reset */
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 /* General typography */
 
 body {
-	margin: 0;
-	background-color: var(--primary-bg-color);
-	color: var(--primary-text-color);
-	font-family: 'Gabarito', Helvetica, Arial, sans-serif;
-	font-size: 1.2rem;
-	font-weight: 300;
+  margin: 0;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: 'Gabarito', Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 h1,
 h2 {
-	font-size: 2rem;
-	margin-block: 0.6em;
-	color: var(--secondary-text-color);
-	@media screen and (min-width: 30rem) {
-		font-size: 3rem;
-	}
+  font-size: 2rem;
+  margin-block: 0.6em;
+  color: var(--secondary-text-color);
+  @media screen and (min-width: 30rem) {
+    font-size: 3rem;
+  }
 }
 
 p {
-	font-size: 1rem;
-	line-height: 130%;
-	@media screen and (min-width: 30rem) {
-		max-width: 40rem;
-	}
+  font-size: 1rem;
+  line-height: 130%;
+  @media screen and (min-width: 30rem) {
+    max-width: 40rem;
+  }
 }
 
 a {
-	display: inline-block;
-	color: var(--link-color);
-	/* background-color:  var(--accent-color); */
-	/* font-weight: 600; */
-	padding: 0 0.25rem;
-	text-align: center;
+  display: inline-block;
+  color: var(--link-color);
+  /* background-color:  var(--accent-color); */
+  /* font-weight: 600; */
+  padding: 0 0.25rem;
+  text-align: center;
 }
 
 a:hover,
 a:focus {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 a:active {
-	background-color: var(--link-color);
-	color: var(--primary-bg-color);
+  background-color: var(--link-color);
+  color: var(--primary-bg-color);
 }
 /* HEADER */
 
 header {
-	margin: 0;
-	padding: 1rem 2rem;
-	border-bottom: 1px solid var(--light-grey);
+  margin: 0;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--light-grey);
 }
 
 /* MAIN CONTENT */
 
 .container {
-	max-width: 60rem;
-	margin: 0 auto;
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 .main-content {
-	@media screen and (min-width: 50rem) {
-		display: grid;
-		grid-template-columns: auto 1fr;
-		gap: 5em;
-	}
+  @media screen and (min-width: 50rem) {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5em;
+  }
 }
 
 main {
-	padding: 1rem 2rem;
+  padding: 1rem 2rem;
 }
 
 /* NAVIGATION */
 
 .sidebar-nav {
-	flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
-	margin-block-end: 1rem;
+  margin-block-end: 1rem;
 }
 
 .sidebar-nav ul {
-	margin-block: 2em;
+  margin-block: 2em;
 }
 
 .sidebar-nav a {
-	padding: 0;
-	text-align: left;
-	text-decoration: none;
-	color: var(--primary-text-color);
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  color: var(--primary-text-color);
 }
 
 .sidebar-nav a:hover {
-	text-decoration: none;
-	color: var(--primary-text-color);
-	border-bottom: 2px solid var(--accent-color);
+  text-decoration: none;
+  color: var(--primary-text-color);
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .sidebar-nav a:active {
-	background-color: #fff;
+  background-color: #fff;
 }
 
 .sidebar-nav a.active {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 /* Temporary styling until project name decided */
 .logo {
-	font-size: 2rem;
-	width: 20ch;
-	color: var(--accent-color);
+  font-size: 2rem;
+  width: 20ch;
+  color: var(--accent-color);
 }
