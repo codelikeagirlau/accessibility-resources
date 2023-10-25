@@ -13,6 +13,7 @@ Currently this repo is a mess of notes and links... help us make it better!
 - [Who in an org should be responsible for accessibilitiy?](#who-in-an-org-should-be-responsible-for-accessibilitiy)
 - [Assistive technology in action](#assistive-technology-in-action)
 - [People to Follow in Web Accessibility](#people-to-follow-in-web-accessibility)
+- [Accessibility Courses](#)
 - [Other notes and incomplete thoughts](#other-notes-and-incomplete-thoughts)
 
 ## What is accessibility?
