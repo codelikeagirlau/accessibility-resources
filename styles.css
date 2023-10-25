@@ -76,11 +76,34 @@ a:active {
 
 header {
 	margin: 0;
-	padding-block: 1rem;
+	padding: 1rem 2rem;
 	border-bottom: 1px solid var(--light-grey);
 }
 
+/* MAIN CONTENT */
+
+.container {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+.main-content {
+	@media screen and (min-width: 50rem) {
+		display: flex;
+		/* justify-content: space-between; */
+		gap: 5em;
+	}
+}
+
+main {
+	padding: 1rem 2rem;
+}
+
 /* NAVIGATION */
+
+.sidebar-nav {
+	flex-shrink: 0;
+}
 
 nav ul {
 	list-style: none;
@@ -115,18 +138,6 @@ nav ul li {
 
 .sidebar-nav a.active {
 	font-weight: 600;
-}
-
-/* MAIN CONTENT */
-
-.container {
-	max-width: 70%;
-	margin: 0 auto;
-}
-
-.main-content {
-	display: flex;
-	gap: 6em;
 }
 
 /* Temporary styling until project name decided */
