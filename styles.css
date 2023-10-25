@@ -89,8 +89,7 @@ header {
 
 .main-content {
   @media screen and (min-width: 50rem) {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
     gap: 5em;
   }
 }
@@ -103,6 +102,9 @@ main {
 
 .sidebar-nav {
   flex-shrink: 0;
+
+  /* Prevent shift of article content when links bold on hover */
+  min-width: 200px;
 }
 
 nav ul {
@@ -126,7 +128,8 @@ nav ul li {
   color: var(--primary-text-color);
 }
 
-.sidebar-nav a:hover {
+.sidebar-nav a:hover,
+.sidebar-nav a:focus {
   text-decoration: none;
   color: var(--primary-text-color);
   border-bottom: 2px solid var(--accent-color);
@@ -136,7 +139,7 @@ nav ul li {
   background-color: #fff;
 }
 
-.sidebar-nav a.active {
+.sidebar-nav .active {
   font-weight: 600;
 }
 
