@@ -12,6 +12,7 @@ Currently this repo is a mess of notes and links... help us make it better!
 - [Questions for digital teams and organisations to ask?](#questions-for-digital-teams-and-organisations-to-ask)
 - [Who in an org should be responsible for accessibilitiy?](#who-in-an-org-should-be-responsible-for-accessibilitiy)
 - [Assistive technology in action](#assistive-technology-in-action)
+- [People to Follow in Web Accessibility](#people-to-follow-in-web-accessibility)
 - [Other notes and incomplete thoughts](#other-notes-and-incomplete-thoughts)
 
 ## What is accessibility?
@@ -156,7 +157,7 @@ Manual accessibility testing using assistive technology is a key part of ensurin
 - [Endless Thread episode about how reddit failed it's blind moderators](https://www.wbur.org/endlessthread/2023/06/28/reddit-api-blind)
 
 ## People to Follow in Web Accessibility
-
+**[`^  back to top  ^`](#accessibility-resources)**
 Below is a list of individuals who are strong advocates for Accessibility and Inclusivity in the digital world. Some of the names on this list draw inspiration from the repo of [@Joe Watkins](https://github.com/joe-watkins/top-people-to-follow-in-web-accessibility).
 | Name | Twitter |
 | --- | --- |
