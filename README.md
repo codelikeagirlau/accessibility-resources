@@ -137,20 +137,6 @@ Manual accessibility testing using assistive technology is a key part of ensurin
 - How can digital teams bake accessibility into their process?
 - How does an organisation prioritise accecessibility?
 
-<<<<<<< HEAD
-=======
-## Who in an org should be responsible for accessibilitiy?
-
-**[`^  back to top  ^`](#accessibility-resources)**
-
-- Designers:
-- Content Writers:
-- Devs and techies:
-- QA and testers:
-- Accessibility committees:
-- EVERYONE!
-
->>>>>>> 3225ec206f29ebafea30c90aec7d19e2fdc7916e
 ## Assistive technology in action
 
 **[`^  back to top  ^`](#accessibility-resources)**
