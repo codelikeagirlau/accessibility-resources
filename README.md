@@ -15,6 +15,7 @@ Currently this repo is a mess of notes and links... help us make it better!
 - [Other notes and incomplete thoughts](#other-notes-and-incomplete-thoughts)
 
 ## What is accessibility?
+
 **[`^  back to top  ^`](#accessibility-resources)**
 
 On the web, accessibility ensures that users with disabilities are able to use all facets of a website. The World Wide Web Consortium (W3C) defines accessibility standards and guidelines that all website designers and developers should comply with.
@@ -22,7 +23,9 @@ On the web, accessibility ensures that users with disabilities are able to use a
 Accessibility is often pooled together with other web standards like performance, usability and security at the end of developing a web project though our aim is to make it a priority throughout all stages of web development.
 
 ## Accessibility things to consider when creating web and digital products:
+
 **[`^  back to top  ^`](#accessibility-resources)**
+
 - POUR principles: Perceivable, operable, understandable, robust
 - HTML: use sematic elements (nav, section, article, aside, footer, header, etc) instead of divs - to assist with screen readers
 - Video captions
@@ -37,7 +40,9 @@ Accessibility is often pooled together with other web standards like performance
 - Building websites for slow internet connections, with technologies e.g Lazy Load, optimized images, fallback, SWR etc
 
 ## Tools and Resources:
+
 **[`^  back to top  ^`](#accessibility-resources)**
+
 - [W3C Markup Validation Service](https://validator.w3.org/): This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
 - [Who Can Use](https://www.whocanuse.com/)
 - [Digital NSW Colour Contrast resource](https://www.digital.nsw.gov.au/delivery/accessibility-and-inclusivity-toolkit/inclusive-design/colour-contrast)
@@ -59,6 +64,7 @@ Accessibility is often pooled together with other web standards like performance
 - [Quick accessibility tests](https://youtu.be/ahDuaWKSGZA?si=QCTquw10i9R3h-MT) (YouTube playlist)
 
 ### Assistive technology
+
 **[`^  back to top  ^`](#accessibility-resources)**
 
 Manual accessibility testing using assistive technology is a key part of ensuring your website is accessible.
@@ -123,14 +129,18 @@ Manual accessibility testing using assistive technology is a key part of ensurin
 - [Endless Thread episode about how reddit failed it's blind moderators](https://www.wbur.org/endlessthread/2023/06/28/reddit-api-blind)
 
 ## Questions for digital teams and organisations to ask:
+
 **[`^  back to top  ^`](#accessibility-resources)**
+
 - What would an accessibility-first process for digital products look like?
 - What would an accessibility pledge look like?
 - How can digital teams bake accessibility into their process?
 - How does an organisation prioritise accecessibility?
 
 ## Who in an org should be responsible for accessibilitiy?
+
 **[`^  back to top  ^`](#accessibility-resources)**
+
 - Designers:
 - Content Writers:
 - Devs and techies:
@@ -139,9 +149,11 @@ Manual accessibility testing using assistive technology is a key part of ensurin
 - EVERYONE!
 
 ## Assistive technology in action
+
 **[`^  back to top  ^`](#accessibility-resources)**
+
 - [Kristy Viers uses voiceover and braille keyboard on the iphone](https://www.youtube.com/watch?v=wueLXCbm_KY)
-- [Kristy Viers uses voiceover and braille keyboard on the ipad]( https://www.youtube.com/watch?v=vpQEQU3ExA0\ )
+- [Kristy Viers uses voiceover and braille keyboard on the ipad](<https://www.youtube.com/watch?v=vpQEQU3ExA0\ >)
 - [Jared Smith on his difficulties accessing the web as a blind user](https://youtu.be/yx7hdQqf8lE)
 - [How Jared uses a sip and puff to control his computer](https://www.youtube.com/watch?v=Bhj5vs9P5cw)
 - [Rakesh Babu's experiences as a blind user](https://youtu.be/qL4shFJHOvc)
@@ -155,6 +167,7 @@ Manual accessibility testing using assistive technology is a key part of ensurin
 - [Endless Thread episode about how reddit failed it's blind moderators](https://www.wbur.org/endlessthread/2023/06/28/reddit-api-blind)
 
 ## People to Follow in Web Accessibility
+
 Below is a list of individuals who are strong advocates for Accessibility and Inclusivity in the digital world. Some of the names on this list draw inspiration from the repo of [@Joe Watkins](https://github.com/joe-watkins/top-people-to-follow-in-web-accessibility).
 | Name | Twitter |
 | --- | --- |
@@ -222,7 +235,7 @@ Below is a list of individuals who are strong advocates for Accessibility and In
 | Jennison Asuncion | [@Jennison](https://twitter.com/Jennison) |
 | JoAnna Hunt | [@johunt0311](https://twitter.com/johunt0311) |
 | Joe Dolson | [@joedolson](https://twitter.com/joedolson) |
-| Joe Watkins | [@_josephwatkins](https://twitter.com/_josephwatkins) |
+| Joe Watkins | [@\_josephwatkins](https://twitter.com/_josephwatkins) |
 | John Foliot | [@johnfoliot](https://twitter.com/johnfoliot) |
 | John McNabb | [@JohnKMcNabb](https://twitter.com/JohnKMcNabb) |
 | Jonathan Hassell | [@jonhassell](https://twitter.com/jonhassell) |
@@ -277,7 +290,9 @@ Below is a list of individuals who are strong advocates for Accessibility and In
 | Ted Drake | [@ted_drake](https://twitter.com/ted_drake) |
 
 ## Other notes and incomplete thoughts
+
 **[`^  back to top  ^`](#accessibility-resources)**
+
 - Accessibility on Instagram - how does Instagram incorporate accessibility?
 - The Roboto font - apparently this font is accessibility friendly, was it designed with this in mind?
 - Other fonts that are dyslexia friendly
