@@ -37,6 +37,15 @@ body {
   font-weight: 300;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-text-color);
+}
+
 h1 {
   font-size: 2rem;
   color: var(--secondary-text-color);
@@ -120,7 +129,7 @@ nav ul li {
   margin-block-end: 1rem;
 }
 
-.sidebar-nav ul {
+.sidebar-nav {
   margin-block: 2em;
 }
 
