@@ -76,6 +76,27 @@ a:active {
     color: var(--primary-bg-color);
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav .btn a {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    display: inline-block;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+nav .btn a:hover {
+    background-color: var(--secondary-text-color);
+    font-weight: inherit;
+}
 .makers-list {
     list-style-type: none;
     display: flex;
