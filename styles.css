@@ -138,13 +138,23 @@ nav ul li {
   text-align: left;
   text-decoration: none;
   color: var(--primary-text-color);
+  border-bottom: 2px solid var(--primary-bg-color); 
+  transition: all 0.2s ease-in-out;
 }
 
 .sidebar-nav a:hover,
 .sidebar-nav a:focus {
   text-decoration: none;
-  color: var(--primary-text-color);
-  border-bottom: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color); 
+}
+
+.sidebar-nav .btn a:hover,
+.sidebar-nav .btn a:focus {
+  text-decoration: none;
+  color: var(--primary-bg-color);
+  border-bottom: none;
+  transform: scale(1.03);
 }
 
 .sidebar-nav a:active {
@@ -209,7 +219,7 @@ nav ul li {
   margin-block-end: 1rem;
 }
 
-.sidebar-nav {
+/* .sidebar-nav {
   margin-block: 2em;
 }
 
@@ -220,20 +230,13 @@ nav ul li {
   color: var(--primary-text-color);
 }
 
-.sidebar-nav a:hover,
-.sidebar-nav a:focus {
-  text-decoration: none;
-  color: var(--primary-text-color);
-  border-bottom: 2px solid var(--accent-color);
-}
-
 .sidebar-nav a:active {
   background-color: #fff;
 }
 
 .sidebar-nav .active {
   font-weight: 600;
-}
+} */
 
 /* Temporary styling until project name decided */
 .logo {
