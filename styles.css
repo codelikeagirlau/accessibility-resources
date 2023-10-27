@@ -110,15 +110,6 @@ main {
   padding: 1rem 2rem;
 }
 
-/* NAVIGATION */
-
-.sidebar-nav {
-  flex-shrink: 0;
-
-  /* Prevent shift of article content when links bold on hover */
-  min-width: 200px;
-}
-
 nav ul {
   list-style: none;
   margin: 0;
@@ -128,8 +119,12 @@ nav ul {
 nav ul li {
   margin-block-end: 1rem;
 }
+/* NAVIGATION */
 
 .sidebar-nav {
+  flex-shrink: 0;
+  /* Prevent shift of article content when links bold on hover */
+  min-width: 200px;
   margin-block: 2em;
 }
 
@@ -199,44 +194,6 @@ header {
 main {
   padding: 1rem 2rem;
 }
-
-/* NAVIGATION */
-
-.sidebar-nav {
-  flex-shrink: 0;
-
-  /* Prevent shift of article content when links bold on hover */
-  min-width: 200px;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  margin-block-end: 1rem;
-}
-
-/* .sidebar-nav {
-  margin-block: 2em;
-}
-
-.sidebar-nav a {
-  padding: 0;
-  text-align: left;
-  text-decoration: none;
-  color: var(--primary-text-color);
-}
-
-.sidebar-nav a:active {
-  background-color: #fff;
-}
-
-.sidebar-nav .active {
-  font-weight: 600;
-} */
 
 /* Temporary styling until project name decided */
 .logo {
