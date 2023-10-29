@@ -8,19 +8,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Accessibility Resources</title>
   </head>
-  <nav>
-    <ul>
-      <li><a href="/index.html">Home</a></li>
-      <li>Tools & Resources</li>
-      <li>Applying Accessibility</li>
-      <li><a href="/manifesto.html">Manifesto</a></li>
-      <li><a href="/about.html">What is this thing?</a></li>
-      <li class="btn">
-        <a href="#">Take the pledge!</a>
-      </li>
-    </ul>
-  </nav>
   <body>
+    <header>
+      <div class="container">
+        <div class="logo">CLG Community Accessibility Resources</div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container main-content">
+        <!-- NOTE: If you update the navigation, please also update it on all other pages  -->
+        <!-- ADD class="active" to the corresponding link for the page you are creating and remove from 'Home' -->
+        <nav class="sidebar-nav">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">Tools & Resources</a></li>
+            <li><a href="#">Applying Accessibility</a></li>
+            <li><a href="/manifesto.html">Manifesto</a></li>
+            <li><a href="/about.html">What is this thing?</a></li>
+            <li class="btn">
+              <a href="/sub-page/web-developer-pledge.html">Take the pledge!</a>
+            </li>
+          </ul>
+        </nav>
     <section>
       <h1>Accessibility Courses</h1>
       <p>This is a summary of all courses, webinars, educational videos, and more, offered in web accessibility.</p>
@@ -70,5 +80,7 @@
         <li><a href="https://gradadmissions.ocadu.ca/program/INCD">OCAD University: Master of Design in Inclusive Design</a></li>
       </ul>
     </section>
+  </main>
+  <footer></footer>
   </body>
 </html>
