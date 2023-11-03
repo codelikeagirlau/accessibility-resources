@@ -11,9 +11,17 @@
     />
     <title>Accessibility Resources</title>
   </head>
-  <body>
-    <!-- For now, let's update on index.html and make sure we copy & paste those updates to all other html pages -->
-    <nav>
+   <body>    
+   <header>
+      <div class="container">
+        <div class="logo">CLG Community Accessibility Resources</div>
+      </div>
+    </header>
+   <main>
+      <div class="container main-content">
+        <!-- NOTE: If you update the navigation, please also update it on all other pages  -->
+        <!-- ADD class="active" to the corresponding link for the page you are creating and remove from 'Home' -->
+        <nav class="sidebar-nav">
       <ul>
         <li><a href="accessibility-resources/index.html">Home</a></li>
         <li><a href="accessibility-resources/tools-and-resources.html">Tools & Resources</a></li>
@@ -25,30 +33,46 @@
         </li>
       </ul>
     </nav>
-    <main>
-      <h1>Web Developer Accessibility Pledge</h1>
-      <p>As a web developer, I pledge to:</p>
-      <ul>
-        <li>
-          Check that my websites meet the Web Content Accessibility Guidelines
-          using the <a href="https://www.w3.org/WAI/WCAG21/quickref/">WCAG Reference</a>.
-        </li>
-        <li>Test my websites thorougly using assistive technologies</li>
-        <!-- To do - link to assistive technologies page/ section of this site -->
-        <li>
-          Commit to the continuous improvement of accessibility for websites
-          under my care
-        </li>
-        <li>
-          Stay up to date with the latest accessibility requirements from the
-          World Wide Web Consortium
-        </li>
-        <li>
-          Bake accessibilty into every phase of my web development projects
-        </li>
-        <!-- To do - link to development phases / checklist -->
-        <li>Advocate for accessibility with my clients, peers and colleages</li>
-      </ul>
+      <div class="container main-content">
+        <nav class="sidebar-nav">
+          <ul>
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="tools-and-resources.html">Tools & Resources</a></li>
+            <li><a href="#">Applying Accessibility</a></li>
+            <li><a href="manifesto.html">Manifesto</a></li>
+            <li><a href="about.html">What is this thing?</a></li>
+            <li class="btn">
+              <a href="sub-page/web-developer-pledge.html">Take the pledge!</a>
+            </li>
+          </ul>
+        </nav>
+        <article>
+          <h1>Web Developer Accessibility Pledge</h1>
+          <p>As a web developer, I pledge to:</p>
+          <ul>
+            <li>
+            Check that my websites meet the Web Content Accessibility Guidelines
+            using the <a href="https://www.w3.org/WAI/WCAG21/quickref/">WCAG Reference</a>.
+            </li>
+            <li>Test my websites thorougly using assistive technologies</li>
+            <!-- To do - link to assistive technologies page/ section of this site -->
+            <li>
+            Commit to the continuous improvement of accessibility for websites
+            under my care
+            </li>
+            <li>
+            Stay up to date with the latest accessibility requirements from the
+            World Wide Web Consortium
+            </li>
+            <li>
+            Bake accessibilty into every phase of my web development projects
+            </li>
+            <!-- To do - link to development phases / checklist -->
+            <li>Advocate for accessibility with my clients, peers and colleages</li>
+          </ul>
+        </article>
+      </div>
     </main>
+    <footer></footer>
   </body>
 </html>
