@@ -84,6 +84,22 @@ a:active {
   color: var(--primary-bg-color);
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid var(--accent-color);
+}
+
+th,
+td {
+  padding: 0.6rem;
+  text-align: start;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #efefef;
+}
+
 /* HEADER */
 
 header {
