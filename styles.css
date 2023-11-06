@@ -84,12 +84,35 @@ a:active {
   color: var(--primary-bg-color);
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid var(--accent-color);
+}
+
+th,
+td {
+  padding: 0.6rem;
+  text-align: start;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #efefef;
+}
+
 /* HEADER */
 
 header {
   margin: 0;
   padding: 1rem 2rem;
   border-bottom: 1px solid var(--light-grey);
+}
+
+/* Temporary styling until project name decided */
+.logo {
+  font-size: 2rem;
+  width: 20ch;
+  color: var(--accent-color);
 }
 
 /* MAIN CONTENT */
@@ -133,7 +156,7 @@ nav ul li {
   text-align: left;
   text-decoration: none;
   color: var(--primary-text-color);
-  border-bottom: 2px solid var(--primary-bg-color); 
+  border-bottom: 2px solid var(--primary-bg-color);
   transition: all 0.2s ease-in-out;
 }
 
@@ -141,7 +164,7 @@ nav ul li {
 .sidebar-nav a:focus {
   text-decoration: none;
   color: var(--accent-color);
-  border-bottom: 2px solid var(--accent-color); 
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .sidebar-nav .btn a:hover,
@@ -158,48 +181,6 @@ nav ul li {
 
 .sidebar-nav .active {
   font-weight: 600;
-}
-
-/* Temporary styling until project name decided */
-.logo {
-  font-size: 2rem;
-  width: 20ch;
-  color: var(--accent-color);
-}
-
-/* ABOUT PAGE - Maker's list */
-
-/* HEADER */
-
-header {
-  margin: 0;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid var(--light-grey);
-}
-
-/* MAIN CONTENT */
-
-.container {
-  max-width: 60rem;
-  margin: 0 auto;
-}
-
-.main-content {
-  @media screen and (min-width: 50rem) {
-    display: flex;
-    gap: 5em;
-  }
-}
-
-main {
-  padding: 1rem 2rem;
-}
-
-/* Temporary styling until project name decided */
-.logo {
-  font-size: 2rem;
-  width: 20ch;
-  color: var(--accent-color);
 }
 
 nav .btn a {
